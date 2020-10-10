@@ -3,7 +3,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 
 //? Import SCSS
-import './index.scss';
+import './scss/app.scss';
 
 //? Import JS
 import App from './App';
