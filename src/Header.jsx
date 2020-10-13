@@ -11,7 +11,7 @@ function Header() {
             <img width="38" src={logoSvg} alt="Pizza logo"/>
             <div>
             <Button outline>Кнопка</Button>
-            <Button>Ещё одна</Button>
+            <Button test>Ещё одна</Button>
               <h1>React Pizza</h1>
               <p>самая вкусная пицца во вселенной</p>
             </div>
