@@ -7,7 +7,8 @@ class Button extends React.Component{
         console.log('Компонент Button отобразился');
     }
     render() {
-        return <button>Привет</button>;
+        console.log(this.props.outline);
+        return <button className={`button ${this.props.outline ? 'button--outline' : ''}`}>{this.props.children}</button>;
     }
 }
 
