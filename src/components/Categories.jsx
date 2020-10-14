@@ -1,13 +1,13 @@
 import React from 'react';
 
-const Categories = ({ items }) => {
+const Categories = ({ items, onClick }) => {
     return (
         <div className="categories">
             <ul>
             <li className="active">Все</li>
             {
                 items.map((name, index) => (
-                <li key={`${name}_${index}`}>{name}</li>
+                <li onClick={onClick} key={`${name}_${index}`}>{name}</li>
                 ))
             }
             </ul>
