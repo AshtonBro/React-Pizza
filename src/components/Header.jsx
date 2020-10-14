@@ -1,5 +1,5 @@
 import React from 'react'; //? Объясняем, что этот файл React компонент
-import logoSvg from './scss/assets/img/pizza-logo.svg';
+import logoSvg from '../scss/assets/img/pizza-logo.svg';
 import Button from './Button';
 
 //? Функциональный компонент
